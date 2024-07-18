@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="navlinks" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="BLOG.html">BLOG</a></li>
+                    <li><a href="Contac.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()" ></i>
+
+        </nav>
+        <h1>Our Certificate & Online Programs for 2022</h1>
+
+    </section>
+
+    <!-- -------BLOG PAGE CONTENT-------  --> 
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" >
+                <h2> Our Certificate & Online Programs for 2022</h2>
+                <p>IMSEC Ghaziabad is NAAC Accredited for maintaining world-class quality in Education & Infrastructure and one of its courses, B.Tech. (Information Technology) is NBA accredited (2021-22 up to 23-24).</p>
+                <br>
+                <p>IMSEC is bestowed with "Excellence in Overall Performance" Award jointly by AICTE & UP Govt.(National UP Education Award).Ranked as 5th in North Zone by Times Engineering College survey 2021 and 4th in Uttar Pradesh by CSR-GHRDC Engineering College survey 2021.</p>
+                <br>
+                <p> Ranked 3rd in Uttar Pardesh by CSR-GHRDC Engineering College Survey 2019 and Ranked 6th in North Zone Times of India Ranking Survey 2019 </p>
+                <br>
+                <p>
+                    Ranked as 5th in North Zone by Times Engineering College survey 2021 and 4th in Uttar Pradesh by CSR-GHRDC Engineering College survey 2021
+                </p>
+                <br>
+                <p>IMSEC got first prize( in Project IRON FIST ) in Dr. Kalam startup Parikrama 12 edition. Award distribution was held in Pravasi Bhartiya Kendra New Delhi organized by Kalam learning Centre on 27th July 2018.</p>
+                <div class="cmtbox">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Yur Comment"></textarea>
+                        <button type="submit" class="herobtn redbtn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Buisness Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>41</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Computer Scince</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Biotechnology</span>
+                    <span>34</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<!-- ---------Footer-------- -->
+<section class="footer">
+    <h4>STAY CONNETED</h4>
+    <p>NH-09, Adhyatmik Nagar, Near Dasna, Distt: Ghaziabad. UP.
+       <br> Landline: 0120-4940000,    
+        Email-Id: imsec@imsec.ac.in
+        WhatsApp: +91-9821396583
+        
+       <br> Admission:
+        +91-9821396581/82/83
+        Toll-Free(Admission):18001028393
+       <br> Email-Id: enquiry@imsec.ac.in</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+        
+    </div>
+</section>
+
+
+<!--------------------- java script for toggle menu ------------------------------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+            
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
